@@ -1,0 +1,739 @@
+
+
+
+
+
+*{
+
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+box-sizing: border-box;
+color: aliceblue;
+
+
+
+
+}
+
+
+
+body{
+
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(1, 1, 1);
+    color: white;
+    
+
+
+}
+
+
+.logo{
+
+    margin: 10px;
+   
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+
+}
+
+
+
+    
+
+
+  nav .logo{
+    color: orangered;
+
+    text-decoration: none;
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+
+}
+
+.header nav ul  a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 6px;
+    margin-top: 30px;
+    font-size: 20px;
+   
+
+
+}
+
+.header nav ul a:hover{
+    background-color:orangered;
+   padding: 30px 10px 20px 10px ; 
+   margin: auto;
+   font-size: 20px;
+   transition: 1s;
+
+
+
+
+
+}
+
+ul button{
+
+    background-color:orangered;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+/*____________section-1__________________*/
+
+
+
+
+
+    
+.section-1 img{
+
+    width: 800px;
+    float: right;
+    position: relative;
+    z-index: -1;
+    line-height: 10px;
+
+
+}
+
+.img-svg svg{
+    position: relative;
+    left: 300px;
+    width: 200px;
+}
+
+
+.div-1{
+
+    position: relative;
+    left: 160px;
+    top: 100px;
+    
+}
+
+.div-1 h2{
+
+    background-color: orangered;
+    padding: 10px 0;
+    width: 130px;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 15px;
+    margin-bottom: 20px;
+
+}
+
+.div-1 h1{
+
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+.div-1 button{
+
+    background-color: orangered;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin: 2px;
+}
+
+
+.div-1 button:hover{
+
+    background-color: black;
+    border: 1px solid white;
+    padding: 16px 35px;
+    transition: 1s;
+
+}
+
+#hr-1{
+
+    border:  2px solid orangered;
+
+
+}
+
+
+#hr-2{
+    border:  2px solid orangered;
+    
+
+}
+
+
+#hr-3{
+    border:  2px solid darkgoldenrod;;
+
+
+}
+
+#hr-4{
+    border:  2px solid darkgoldenrod;
+
+}
+
+
+
+/*__________section-2_____________*/
+.section-2{
+    margin-top: 300px;
+}
+.section-2 img{
+
+    width: 400px;
+    margin-top: 200px;
+    position: relative;
+    left: 140px;
+
+}
+
+.div-2{
+
+    float: right;
+    position: relative;
+    bottom: 437px;
+    right: 80px;
+}
+
+.end{
+
+    line-height: 37px;
+}
+
+.end p{
+    line-height: 20pxpx;
+}
+
+.end button{
+
+    background-color: orangered;
+    padding: 15px 40px;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.end button:hover{
+
+    background-color: black;
+    border: 1px solid white;
+}
+
+
+
+/*____section-4___*/
+
+
+ .section-4{
+    
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 300px;
+    background-color: rgba(32, 31, 31, 0.7);
+    
+
+ }
+ .section-4 div {
+    padding: 40px;
+    margin: 8px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px dashed white;
+    font-size: 20px;
+   
+
+ }
+ .section-4 .b{
+    background-color: orangered;
+ }
+ 
+ .section-4 .d{
+    padding: 40px 5px;
+ }
+
+
+ /* .section-5 */
+ 
+ 
+ .section-5 {
+    position: relative;
+    bottom: 200px;
+    
+    
+ }
+    .section-5 .q{
+       display: flex;
+        
+       
+
+    }
+ 
+ 
+ .section-5 .one{
+    text-align: center;
+    line-height: 30px;
+
+
+ }
+ .section-5 .tow{
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px;
+    font-size: 13px;
+    
+
+
+ }
+
+ .section-5 .tow p{
+    margin: 5px;
+ }
+
+
+.section-5 .tow #p-1{
+
+    color: crimson;
+    border-style:solid ;
+    border-width: 2px;
+    border-right: crimson;
+    border-left: crimson;
+    border-top: crimson;
+
+}
+
+.section-5 .tow p:hover{
+    color: crimson;
+    border-style:solid ;
+    border-width: 2px;
+    border-right: crimson;
+    border-left: crimson;
+    border-top: crimson;
+    cursor: pointer;
+
+}
+
+
+.section-5  .tree {
+    margin: 0 150px;
+}
+ .section-5  .tree div img{
+    width: 200px;
+    margin: 10px;
+ }
+
+ @media screen and (max-width:300px){
+
+    .tree{
+
+      width: 50px;
+
+    }
+}
+ 
+
+ .section-5 #bo{
+
+    text-align: center;
+    margin-top: 20px;
+ }
+
+
+ .section-5 #bo button {
+    color: white;
+   
+    background-color: orangered;
+    padding: 20px 60px;
+    border-radius: 10px;
+    margin: 3px;
+ }
+
+
+ .section-5 #bo button:hover {
+ background-color: black;
+ border: 1px solid white;
+
+ }
+
+
+/* .section-6 */
+
+
+.section-6 {
+
+    margin: -100px 0;
+    
+
+}
+
+.section-6 .one{
+
+    margin-bottom: 150px;
+    text-align: center;
+
+
+}
+
+.section-6 .tow{
+    text-align: center;
+    margin: 0 250px;
+    background-color: rgb(31, 30, 30);
+    padding: 50px 30px 20px 30px;
+    width: 750px;
+    height: 270px;
+    font-size: 14px;
+    border-radius: 10px;
+    
+    
+}
+
+.section-6 .tow #h4-1{
+    color: orangered;
+    font-size: 25px;
+    
+}
+
+.section-6 .tow .z{
+    
+    margin: 40px;
+
+}
+
+
+
+.section-6 .tow img {
+    width: 150px;
+    position: relative;
+    bottom: 520px;
+    left: 10px;
+    border-radius: 50%;
+    
+}
+
+.section-6 .bo{
+    margin: 20px 0 ;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.section-6 .bo button{
+   padding: 5px 30px;
+   border-radius: 50px;
+   background-color: darkgray;
+}
+.section-6 .bo #bo2{
+    background-color: orangered;
+
+}
+
+
+/* .section-8 */
+
+
+    
+/*
+
+.main{ 
+
+    position:relative ;
+    left: 700px;
+    bottom: 490px;
+    line-height: 30px;
+
+    
+    }
+
+
+    .section-1{
+
+      
+
+
+    }
+
+    .section-1 img{
+        
+        position: relative;
+        left: 130px;
+        border-radius: 10px;
+        width: 550px;
+       
+
+
+    }
+
+
+    hr{
+        background-color:;
+        width: 500px;
+        margin-top: 20px;
+    }
+
+   
+
+    .main button{
+        background-color: orangered;
+        padding: 15px  30px;
+        font-size: 20px;
+        border-radius: 10px;
+        margin: 3px;
+
+
+    }
+
+    .main button:hover{
+
+    background-color: rgb(20, 0, 0);
+    border: 1px solid floralwhite;
+    cursor: pointer;
+
+
+
+
+    }
+
+    */
+
+
+
+
+
+
+    
+/*
+
+.div-2 h1{
+
+    font-size: 45px;  
+
+
+    
+}
+
+.div-2 button{
+
+    background-color: orangered;
+    padding: 5px 30px;
+    border-radius: 10px;
+    font-size:15px;
+    line-height: 40px;
+    margin: 2px;
+    
+
+}
+.div-2 button:hover{
+
+    background-color: black;
+    border: 1px solid floralwhite;
+    cursor: pointer;
+
+
+}
+
+div .img-1{
+
+    float: right;
+    position: absolute;
+    top:100px;
+    left: 350px;
+    width: 400px;
+
+    z-index: -1;/*ورا بتيجي*/
+
+   
+    /*
+}
+
+svg{
+
+
+    width: 500px;
+    height: 550px;
+    position: relative;
+    bottom: 530px;
+    left: 100px;
+
+}
+
+
+*/
+
+
+/*2222222
+
+
+
+.main{ 
+
+    position:relative ;
+    left: 700px;
+    bottom: 490px;
+    line-height: 30px;
+
+    
+    }
+
+
+    .section-1{
+
+      
+
+
+    }
+
+    .section-1 img{
+        
+        position: relative;
+        left: 130px;
+        border-radius: 10px;
+        width: 550px;
+       
+
+
+    }
+
+
+    hr{
+        background-color:;
+        width: 500px;
+        margin-top: 20px;
+    }
+
+   
+
+    .main button{
+        background-color: orangered;
+        padding: 15px  30px;
+        font-size: 20px;
+        border-radius: 10px;
+        margin: 3px;
+
+
+    }
+
+    .main button:hover{
+
+    background-color: rgb(20, 0, 0);
+    border: 1px solid floralwhite;
+    cursor: pointer;
+
+
+
+
+    }
+
+    */
+
+    /*___________________________________
+    footer{
+        
+       background-color: rgb(12, 12, 12);
+
+        
+        
+
+    }
+
+
+    .f-1{
+
+       position: relative;
+       top: 100px;
+       left: 50px;
+       line-height: 35px;
+      
+
+       
+
+    }
+
+    .icon{
+
+        position: relative;
+        top: 390px;
+        background-color: orangered;
+        width: 350px;
+        border-radius: 5px;
+    }
+
+    svg{
+        margin: 7px;
+
+
+    }
+
+
+    .f-2{
+
+        
+        position: relative;
+        left: 500px;
+        bottom: 110px;
+        margin-top: 100px;
+        
+
+    }
+
+
+    input,textarea{
+
+        width: 300px;
+        height: 70px;
+        margin: 15px;
+        border-radius: 5px;
+        background-color: black;
+
+    }
+
+    textarea{
+        width: 633px;
+        height: 150px;
+        resize: none;
+    }
+    
+    input[type="submit"]{
+
+        background-color:orangered;
+        border-radius: 15px;
+        width: 150px;
+        font-size:15px;
+
+    }
+
+    input[type="submit"]:hover{
+        background-color: black;
+        border: 1px solid floralwhite;
+
+
+    }
+
+
+    .foter-end{
+        text-align: center;
+    }
+
+
+
+*/
